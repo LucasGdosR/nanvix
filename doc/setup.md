@@ -47,6 +47,7 @@ sudo -E ./build/scripts/setup/arch.sh  # Install dependencies.
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 exec $SHELL  # Restart shell to update path.
 rustup component add rust-src
+rustup target add wasm32-wasip1
 ```
 
 ### Building QEMU (Optional)
