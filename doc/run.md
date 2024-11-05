@@ -17,9 +17,6 @@ This document instructs you on how to run Nanvix.
 # Run Nanvix in QEMU with default parameters:
 # make TARGET=x86 MACHINE=qemu-pc VERBOSE=no RELEASE=no TIMEOUT=10 FEATURES= run
 make run
-
-# TIMEOUT=<seconds>: Set the timeout for the run script. You may want to override the default value if your development environment is a low-end machine (ie: old CPU, HD disk, low RAM).
-make TIMEOUT=90 run
 ```
 
 ### List of Optional Run Parameters
